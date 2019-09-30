@@ -1,6 +1,7 @@
 html {
     background-color: black;
+    color: white;
     text-align: center;
-    font-family: Georgia, sans-serif;
+    font-family: georgia, sans-serif;
     min-width: 320px;
   }
