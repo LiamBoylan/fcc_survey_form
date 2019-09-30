@@ -21,12 +21,20 @@
 		<input type="number" id="num-of-genres" name="num-of-genres" min="0" max="50" class="input-field" placeholder="Enter a number between 0 and 50">
 	
 		<label for="dropdown">Do you enjoy listening to heavy metal music?</label>
-			<select id="dropdown">
-				<option value="yes">Yes</option>
-				<option value="no">No</option>
-				<option value="certain-songs">Certain songs</option>
-				<option value="certain-bands">Certain bands</option>
-			</select>
+		<select id="dropdown">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+			<option value="certain-songs">Certain songs</option>
+			<option value="certain-bands">Certain bands</option>
+		</select>
+
+		<label for="frequency">How often do you listen to heavy metal music?</label>
+		<ul id="frequency">
+			<li class="radio"><label>Every day<input name="radio-buttons" value="1" type="radio" class="choices"></label></li>
+			<li class="radio"><label>Every few days<input name="radio-buttons" value="2" type="radio" class="choices"></label></li>
+			<li class="radio"><label>Occasionally<input name="radio-buttons" value="3" type="radio" class="choices"></label></li>
+			<li class="radio"><label>Never<input name="radio-buttons" value="3" type="radio" class="choices"></label></li>
+		</ul>
 	</form>
 </body>
 </html>
