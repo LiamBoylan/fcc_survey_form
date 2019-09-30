@@ -15,55 +15,69 @@
 		<div class="labels">
 			<label id="name-label" for="name">* Name:</label>
 		</div>
-		<input type="text" id="name" name="name" class="input-field" placeholder="Enter your name" required>
-	
+		<div class="inputs">
+			<input type="text" id="name" name="name" class="input-field" placeholder="Enter your name" required>
+		</div>
+		
 		<div class="labels">
 			<label id="email-label" for="email">* Email:</label>
 		</div>
-		<input type="email" id="email" name="email" class="input-field" placeholder="Enter your e-mail" required>
-	
+		<div class="inputs">
+			<input type="email" id="email" name="email" class="input-field" placeholder="Enter your e-mail" required>
+		</div>
+		
 		<div class="labels">
 			<label id="number-label" for="num-of-genres">How many genres of heavy metal do you know/have you heard of?</label>
 		</div>
-		<input type="number" id="num-of-genres" name="num-of-genres" min="0" max="50" class="input-field" placeholder="Enter a number between 0 and 50">
-	
+		<div class="inputs">
+			<input type="number" id="num-of-genres" name="num-of-genres" min="0" max="50" class="input-field" placeholder="Enter a number between 0 and 50">
+		</div>
+		
 		<div class="labels">
 			<label for="dropdown">Do you enjoy listening to heavy metal music?</label>
 		</div>
-		<select id="dropdown">
-			<option value="yes">Yes</option>
-			<option value="no">No</option>
-			<option value="certain-songs">Certain songs</option>
-			<option value="certain-bands">Certain bands</option>
-		</select>
-
+		<div class="inputs">
+			<select id="dropdown">
+				<option value="yes">Yes</option>
+				<option value="no">No</option>
+				<option value="certain-songs">Certain songs</option>
+				<option value="certain-bands">Certain bands</option>
+			</select>
+		</div>
+		
 		<div class="labels">
 			<label for="frequency">How often do you listen to heavy metal music?</label>
 		</div>
-		<ul id="frequency">
-			<li class="radio"><label>Every day<input name="radio-buttons" value="1" type="radio" class="choices"></label></li>
-			<li class="radio"><label>Every few days<input name="radio-buttons" value="2" type="radio" class="choices"></label></li>
-			<li class="radio"><label>Occasionally<input name="radio-buttons" value="3" type="radio" class="choices"></label></li>
-			<li class="radio"><label>Never<input name="radio-buttons" value="3" type="radio" class="choices"></label></li>
-		</ul>
-
+		<div class="inputs">
+			<ul id="frequency">
+				<li class="radio"><label>Every day<input name="radio-buttons" value="1" type="radio" class="choices"></label></li>
+				<li class="radio"><label>Every few days<input name="radio-buttons" value="2" type="radio" class="choices"></label></li>
+				<li class="radio"><label>Occasionally<input name="radio-buttons" value="3" type="radio" class="choices"></label></li>
+				<li class="radio"><label>Never<input name="radio-buttons" value="3" type="radio" class="choices"></label></li>
+			</ul>
+		</div>
+		
 		<div class="labels">
 			<label for="genres">Which genres of heavy metal do you enjoy listening to? (Check all that apply): </label>
 		</div>
-		<ul id="genres">
-			<li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="choices">Old-school heavy metal</label></li>
-			<li class="checkbox"><label><input name="prefer" value="2" type="checkbox" class="choices">Thrash metal</label></li>
-			<li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="choices">Speed metal</label></li>
-			<li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="choices">Death metal</label></li>
-			<li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="choices">Melodic death metal</label></li>
-			<li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="choices">Power metal</label></li>
-		</ul>
-
+		<div class="inputs">
+			<ul id="genres">
+				<li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="choices">Old-school heavy metal</label></li>
+				<li class="checkbox"><label><input name="prefer" value="2" type="checkbox" class="choices">Thrash metal</label></li>
+				<li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="choices">Speed metal</label></li>
+				<li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="choices">Death metal</label></li>
+				<li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="choices">Melodic death metal</label></li>
+				<li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="choices">Power metal</label></li>
+			</ul>
+		</div>
+		
 		<div class="labels">
 			<label for="comments">Additional comments:</label>
 		</div>
-		<textarea id="comments" class="input-field"></textarea>
-
+		<div class="inputs">
+			<textarea id="comments" class="input-field"></textarea>
+		</div>
+		
 		<button id="submit" type="submit">Submit</button>
 	</form>
 </body>
